@@ -1,16 +1,17 @@
 {
-    "_config_name": "field.field.field_recipes",
-    "field_name": "field_recipes",
-    "type": "text",
+    "_config_name": "field.field.field_testimonial_image",
+    "field_name": "field_testimonial_image",
+    "type": "image",
     "translatable": false,
-    "module": "text",
+    "module": "image",
     "active": 1,
     "locked": 0,
-    "cardinality": 1,
+    "cardinality": "1",
     "deleted": 0,
     "entity_types": [],
     "settings": {
-        "max_length": "255"
+        "uri_scheme": "public",
+        "default_image": ""
     },
     "storage": {
         "type": "field_sql_storage",
