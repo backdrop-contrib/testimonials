@@ -7,5 +7,6 @@ It includes:
 2) Two new fields
 3) Three field instances
 4) Custom image style
+5) A view of testimonials (/testimonials)
 
 Created by @stpaultim (Triplo https://triplo.co and Simplo https://simplo.site)
