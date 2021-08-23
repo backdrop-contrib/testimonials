@@ -1,15 +1,17 @@
 {
-    "_config_name": "field.field.field_test",
-    "field_name": "field_test",
-    "type": "text_long",
+    "_config_name": "field.field.field_recipes",
+    "field_name": "field_recipes",
+    "type": "text",
     "translatable": false,
     "module": "text",
     "active": 1,
     "locked": 0,
-    "cardinality": "1",
+    "cardinality": 1,
     "deleted": 0,
     "entity_types": [],
-    "settings": [],
+    "settings": {
+        "max_length": "255"
+    },
     "storage": {
         "type": "field_sql_storage",
         "settings": [],
