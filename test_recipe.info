@@ -1,4 +1,4 @@
-type = recipes
+type = module
 name = Test Config
-description = An experimental package of configuration files that can be used to add features to Backdrop CMS sites.
+description = A test
 backdrop = 1.x
