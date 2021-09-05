@@ -32,7 +32,7 @@
                         "items_per_page": "10"
                     }
                 },
-                "style_plugin": "table",
+                "style_plugin": "default",
                 "row_plugin": "fields",
                 "fields": {
                     "field_testimonial_image": {
@@ -87,9 +87,10 @@
                         "click_sort_column": "fid",
                         "type": "image",
                         "settings": {
-                            "image_style": "crop",
+                            "image_style": "testimonial",
                             "image_link": "",
-                            "image_float": ""
+                            "image_float": "",
+                            "image_load": "auto"
                         },
                         "group_column": "",
                         "group_columns": [],
@@ -110,7 +111,7 @@
                         "group_type": "group",
                         "ui_name": "",
                         "label": "",
-                        "exclude": 0,
+                        "exclude": 1,
                         "alter": {
                             "alter_text": 0,
                             "text": "",
@@ -153,10 +154,10 @@
                         "hide_alter_empty": 1,
                         "link_to_node": 0
                     },
-                    "field_testimonial_author": {
-                        "id": "field_testimonial_author",
-                        "table": "field_data_field_testimonial_author",
-                        "field": "field_testimonial_author",
+                    "body": {
+                        "id": "body",
+                        "table": "field_data_body",
+                        "field": "body",
                         "relationship": "none",
                         "group_type": "group",
                         "ui_name": "",
@@ -216,10 +217,10 @@
                         "separator": ", ",
                         "field_api_classes": 0
                     },
-                    "body": {
-                        "id": "body",
-                        "table": "field_data_body",
-                        "field": "body",
+                    "field_testimonial_author": {
+                        "id": "field_testimonial_author",
+                        "table": "field_data_field_testimonial_author",
+                        "field": "field_testimonial_author",
                         "relationship": "none",
                         "group_type": "group",
                         "ui_name": "",
@@ -342,7 +343,19 @@
                         "order": "DESC"
                     }
                 },
-                "title": "Testimonials"
+                "title": "Testimonials",
+                "style_options": {
+                    "row_class": "",
+                    "default_row_class": 1,
+                    "row_class_special": 1,
+                    "uses_fields": 0
+                },
+                "row_options": {
+                    "default_field_elements": 1,
+                    "inline": [],
+                    "separator": "",
+                    "hide_empty": 0
+                }
             }
         },
         "page": {
@@ -690,6 +703,17 @@
                         "hide_alter_empty": 0
                     }
                 }
+            }
+        },
+        "block_1": {
+            "display_title": "Testimonial Block",
+            "display_plugin": "block",
+            "display_options": {
+                "query": {
+                    "type": "views_query",
+                    "options": []
+                },
+                "display_description": ""
             }
         }
     }
