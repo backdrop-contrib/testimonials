@@ -10,7 +10,7 @@
     "modified": true,
     "disabled": false,
     "has_title": true,
-    "title_label": "Title",
+    "title_label": "Testimonial Title",
     "settings": {
         "comment_enabled": false,
         "comment_default": "1",

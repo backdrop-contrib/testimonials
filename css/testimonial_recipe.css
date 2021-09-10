@@ -1,7 +1,8 @@
 .view-testimonials .view-content {
   display:  grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   column-gap: 30px;
+  overflow: hidden;
 }
 
 .view-testimonials .views-field-body p {
@@ -24,10 +25,10 @@
   content: "-- ";
 }
 
-/*@media (max-width: 34em) {
+@media (max-width: 44em) {
   .view-testimonials .view-content {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     column-gap: 0px;
   }
-}*/
+}
 
