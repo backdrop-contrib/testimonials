@@ -368,7 +368,7 @@
                 },
                 "path": "testimonials",
                 "menu": {
-                    "type": "tab",
+                    "type": "normal",
                     "title": "Testimonials",
                     "description": "",
                     "name": "main-menu",
