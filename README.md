@@ -18,7 +18,7 @@ It also comes with
 Requirements
 ------------
 
-None
+Requires [BackdropCMS 1.20](https://github.com/backdrop/backdrop/releases/tag/1.20.0) or greater.
 
 Installation
 ------------
