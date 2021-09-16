@@ -54,6 +54,14 @@ https://github.com/backdrop-contrib/testimonial-recipe/issues.
 Please, use the issue queue to tell us how the recipe worked for you and
 to share your ideas on how to improve it for other users. 
 
+Feedback
+--------
+
+We are experimenting with config recipes and welcome your feedback. Please,
+let us know how this config recipe worked for you and how you think we 
+could improve it for other users in the future. 
+https://github.com/backdrop-contrib/testimonials/issues/1
+
 Current Maintainers
 -------------------
 
