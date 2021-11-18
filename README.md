@@ -60,7 +60,7 @@ Issues
 ------
 
 Bugs and Feature requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/testimonial-recipe/issues.
+https://github.com/backdrop-contrib/testimonial_recipe/issues.
 
 Please, use the issue queue to tell us how the recipe worked for you and
 to share your ideas on how to improve it for other users. 
