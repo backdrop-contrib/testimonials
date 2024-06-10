@@ -90,6 +90,6 @@
     node_save($node);
 
     $layout = layout_load('home'); 
-    $layout->addBlock('views', 'testimonials-block_1', 'content');
+    $layout->addBlock('views', 'testimonials-block_1', 'bottom');
     $layout->save();
   }
