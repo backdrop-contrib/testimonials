@@ -20,12 +20,12 @@
     $one = file_get_contents($module_path . '/testimonial_txt/one.txt');
     $node->body['und'][] = array('value' => $one, 'format' => 'filtered_html');
 
-    $image_path = $module_path . '/images/blue_drop.png';
+    $image_path = $module_path . '/images/profile-pic-001.png';
     $image_object = file_get_contents($image_path);
-    $file = file_save_data($image_object, 'public://', 'blue_drop.png', FILE_EXISTS_RENAME);
+    $file = file_save_data($image_object, 'public://', 'profile-pic-001.png', FILE_EXISTS_RENAME);
     $file->uid = 1;
     $node->field_testimonial_image['und'][0] = (array) $file;
-    $node->field_testimonial_author['und'][0]['value'] = 'Blue Dropper';
+    $node->field_testimonial_author['und'][0]['value'] = 'Kai Nakamura';
 
     // Save submit and save the node.
     $node = node_submit($node);
@@ -49,12 +49,12 @@
     $two = file_get_contents($module_path . '/testimonial_txt/two.txt');
     $node->body['und'][] = array('value' => $two, 'format' => 'filtered_html');
 
-    $image_path = $module_path . '/images/green_drop.png';
+    $image_path = $module_path . '/images/profile-pic-002.png';
     $image_object = file_get_contents($image_path);
-    $file = file_save_data($image_object, 'public://', 'green_drop.png', FILE_EXISTS_RENAME);
+    $file = file_save_data($image_object, 'public://', 'profile-pic-002.png', FILE_EXISTS_RENAME);
     $file->uid = 1;
     $node->field_testimonial_image['und'][0] = (array) $file;
-    $node->field_testimonial_author['und'][0]['value'] = 'Green Drop';
+    $node->field_testimonial_author['und'][0]['value'] = 'Ari Patel';
 
     // Save submit and save the node.
     $node = node_submit($node);
@@ -78,12 +78,12 @@
     $three = file_get_contents($module_path . '/testimonial_txt/three.txt');
     $node->body['und'][] = array('value' => $three, 'format' => 'filtered_html');
 
-    $image_path = $module_path . '/images/red_drop.png';
+    $image_path = $module_path . '/images/profile-pic-003.png';
     $image_object = file_get_contents($image_path);
-    $file = file_save_data($image_object, 'public://', 'red_drop.png', FILE_EXISTS_RENAME);
+    $file = file_save_data($image_object, 'public://', 'profile-pic-003.png', FILE_EXISTS_RENAME);
     $file->uid = 1;
     $node->field_testimonial_image['und'][0] = (array) $file;
-    $node->field_testimonial_author['und'][0]['value'] = 'Drop the Dragon (Red)';
+    $node->field_testimonial_author['und'][0]['value'] = 'Sasha Rivera';
 
     // Save submit and save the node.
     $node = node_submit($node);
