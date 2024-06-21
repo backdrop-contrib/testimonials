@@ -32,7 +32,7 @@
                         "items_per_page": "10"
                     }
                 },
-                "style_plugin": "default",
+                "style_plugin": "grid",
                 "row_plugin": "fields",
                 "fields": {
                     "field_testimonial_image": {
@@ -345,10 +345,16 @@
                 },
                 "title": "Testimonials",
                 "style_options": {
+                    "grouping": [],
                     "row_class": "",
                     "default_row_class": 1,
                     "row_class_special": 1,
-                    "uses_fields": 0
+                    "columns": "3",
+                    "alignment": "horizontal",
+                    "deprecated_table": 0,
+                    "fill_single_line": 1,
+                    "caption": "",
+                    "summary": ""
                 },
                 "row_options": {
                     "default_field_elements": 1,
