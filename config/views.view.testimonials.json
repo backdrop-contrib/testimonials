@@ -389,7 +389,7 @@
                 },
                 "path": "testimonials",
                 "menu": {
-                    "type": "normal",
+                    "type": "none",
                     "title": "Testimonials",
                     "description": "",
                     "name": "main-menu",

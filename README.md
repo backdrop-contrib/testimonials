@@ -11,7 +11,9 @@ This particular module creates a Testimonial content type with fields for
 
 It also comes with
 - a custom image style
-- a view page and view block that display a 3 column grid of testimonials
+- a view page and view block that display a 3 column grid of testimonials. 
+  There is no menu link to the testimonials page, it can be found at
+  `/testimonials`.
 - a CSS file with stying for testimonials
 
 This recipe now comes with 3 sample testimonials to help you immediately
